@@ -10,15 +10,50 @@
         -o-background-size: cover;
         background-size: cover;}
     h1 {
-        font-family: arial;
+        font-family: Arial, Verdana, monospace;
         background-color: #F7F5FB;
-        font-size:300%;
+        color:#1E2749;
+        font-size:50px;
         opacity: 0.75;
+        font-style: oblique;
+        text-transform: uppercase;
+        text-decoration: underline;
+        text-align: center;
     }
+    ul {
+        width: 570px;
+        padding: 15px;
+        margin: 0px auto 0px auto;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+        text-align: center;
+    }
+    li{
+        display: inline;
+        margin: 0px 0px
+    }
+    a {
+        color:#000000;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 6px 18px 10px 18px
+    }
+    a:hover, a.on{
+        color: #cc3333;
+        background-color: #C1DFF0;
+    }
+
 </style>
 </head>
 <body>
-<h1 align="center"><strong>My Recipe Book</strong></h1>
+<h1>Recipe Book</h1>
+<ul id="navigation">
+    <li><a href="#" class="on">Home</a></li>
+    <li><a href="#">Soup Base 1</a></li>
+    <li><a href="#">Soup Base 2</a></li>
+    <li><a href="#">Soup Base 3</a></li>
+</ul>
+
 
 </body>
 </html>
